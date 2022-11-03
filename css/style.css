@@ -99,8 +99,10 @@ footer p i {
 }
 
 
+
 .about {
-    min-height: 250px;
+    min-height: 100px;
+    padding-top: 10px;
 }
 
 .contact {
