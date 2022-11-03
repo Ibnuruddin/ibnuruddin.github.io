@@ -27,11 +27,14 @@ body {
 }
 
 .jumbotron h1 {
+    padding-top: 20px;
     text-shadow: 1px 2px 1px rgba(0,0,0,0.5);
+    font-size: 28px;
 }
 
 .jumbotron p {
   font-style: italic;
+  font-size: 14px;
 }
 .navbar{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
@@ -87,7 +90,7 @@ footer {
  
 footer p {
     color: #aaa;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin-top: 10px;
 }
 
@@ -102,6 +105,7 @@ footer p i {
 
 .contact {
     min-height: 800px;
+
 }
 
 .portfolio {
