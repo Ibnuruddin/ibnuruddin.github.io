@@ -1,0 +1,120 @@
+html{
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url('../img/a.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    color: #243B55;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+
+.jumbotron img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.jumbotron h1 {
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.5);
+}
+
+.jumbotron p {
+  font-style: italic;
+}
+.navbar{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
+    filter: alpha(opacity=70);  /* IE 5-7 */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
+    opacity: 0.9;  
+    box-shadow: 1px 3px rgb(155, 148, 252);
+
+}
+.navbar li {
+    font-size: 17px;
+    color: #141E30;
+}
+.btn-funky-moon {
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 1px solid #eee;
+}
+
+
+.container img{
+    margin: 8px;
+    transition: 0.5s ease;
+}
+
+
+hr {
+    width: 250px;
+    border-top: 3px solid rgb(0, 0, 0);
+}
+section {
+    min-height: 550px;
+}
+
+footer {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    padding-top: 30px;
+}
+
+ 
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+footer p i {
+    color:salmon;
+}
+
+
+.about {
+    min-height: 250px;
+}
+
+.contact {
+    min-height: 800px;
+}
+
+.portfolio {
+    background:#eee;
+    
+}
+
+.portfolio .img-thumbnail{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 0.5s;
+}
+
+.portfolio .img-thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
