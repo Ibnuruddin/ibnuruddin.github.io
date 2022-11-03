@@ -21,7 +21,7 @@ $(window).scroll(function(){
     });
 
     $('.jumbotron h1').css({
-        'transform' : 'translate(0px, '+ wScroll/2 +'%)'
+        'transform' : 'translate(0px, '+ wScroll/2.4 +'%)'
     });
     $('.jumbotron p').css({
         'transform' : 'translate(0px, '+ wScroll/1.2 +'%)'
